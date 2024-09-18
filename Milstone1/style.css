@@ -1,0 +1,223 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins' , sans-serif;
+    }
+    
+    body
+    {
+     background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    min-height: 100vh;
+    }
+   
+    .container{
+
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 1000px;
+        background: #fff;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+        border-line: 1px;
+
+}
+
+.container .left_side{
+
+    position: relative;
+    background: gray;
+    padding: 40px;
+}
+
+
+.ProfileText{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-item: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.ProfileText .imgbx{
+
+    popins: relative;
+    width: 100px;
+    height: 100px;
+    border-redius: 50%;
+    overflow: hidden;
+
+
+   
+
+}
+
+.ProfileText .imgbx img{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+.ProfileText h2{
+
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight- 600;
+    line-height: 1.4em;
+}
+
+.ProfileText h2:hover span{
+
+    font-size: 0.8em;
+    font-weight: 300;
+
+
+}
+
+
+.CareeerObjective{
+  
+    position: relative;
+    font-size: 16px;
+    align-item: justify;
+    line-indent: 5px;
+    color: #fff;
+
+}
+
+
+.h2{
+    position: relative;
+    font-size: 16px;
+    line-indent: 2px;
+    text-align:justify;
+
+} 
+
+
+.ContactInfo:hover{
+
+    padding-top: 30px;
+}
+
+.title{
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
+.ContactInfo ul{
+
+    position: relative;
+
+}
+.ContactInfo ul li{
+
+    position: relative:
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.ContactInfo ul li .icon{
+
+    display: inline-block;
+    width: 50px;
+    font-size: 16px;
+    color: #03a9f4;
+}
+.ContactInfo ul li span{
+
+    color: #fff;
+    font-weight: 300px;
+    font-size: 14px;
+    margin: 2px;
+    
+}
+
+
+
+ .container .Right_side{
+    position:relative;
+    background: #003147;
+    opecity: 100%;
+    color: #fff;
+     padding: 60px;
+    
+}
+
+.title2:hover{
+
+    color: lightblue;
+    font-color: #fff;
+    font-weight: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    
+   
+  
+
+}
+
+  
+.ProfileText2 h2:hover{
+
+ font-color: #03a9f4;
+  font-size: 30px;
+  font-weight: 300px;
+  text-decoration-line:
+  underline;
+ 
+}
+    
+.ProfileText2 h3:hover {
+    position: relative;
+    font-size: 21px;
+    color: #03a9f4;
+     text-decoration-line:
+     underline;
+     line=height: 10px;
+
+}
+
+.ProfileText2 h2:hover{
+    position: relative;
+    width: 500px;
+    font-size: 25px;
+    color: #03a9f4;
+    letter-spacing: 2px;
+    
+   
+    }
+
+ 
+
+
+    .ProfileText2 h4: hover{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+
+    }
+
